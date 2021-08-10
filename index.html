@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="TEST LIBRAIRIE TYPED.JS "
+    />
+   
+    <meta name="author" content="RISMO" />
+    <meta property="og:url" content="https://rismo.fr/apps/typed" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="DEVELOPPEUR WEB|COMMUNITY MANAGER" />
+    <meta
+      property="og:description"
+      content="TEST LIBRAIRIE JAVASCRIPT TYPED.JS "
+    />
+    <meta property="og:image" content="https://rismo.fr/apps/typed/assets/img/fonds.webp" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logorismo.png" />
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script src="assets/js/typed.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>TEST LIBRAIRIE TYPED.JS</title>
+  </head>
+  <body>
+    <div class="video-responsive">
+      <video id="videoBG" width="400" autoplay loop muted>
+        <source src="assets/video/social2.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="d-flex justify-content-center pt-3">
+      <img src="assets/img/profil.png" width="400px" id="profil" />
+    </div>
+    <div class="banner-area" id="typed-strings">
+      <h3><span class="type ris"></span></h3>
+    </div>
+
+    <script>
+      var typed = new Typed(".type", {
+        strings: [
+          "🎬 RISMO 🎬<br>CONCEPTEUR <br>  DE PROJETS DIGITAUX ",
+          "💻 DÉVELOPPEUR WEB ",
+          "CRÉATEUR DE SITES WEB <br>📱 RESPONSIVE DESIGN 📱<br> 💪 SÉCURISÉS 💪<br> 🛠️ MAINTENABLES 🛠️",
+          "📢 COMMUNITY MANAGER ",
+          "MISE EN AVANT ↗️ <br> DE VOTRE ENTREPRISE,<br>SUR LES RÉSEAUX SOCIAUX 💬",
+          "VOUS SOUHAITEZ <br>EN SAVOIR PLUS ❔ ",
+
+          'RETROUVEZ,<br> LES TOUT DERNIERS <br> PROJETS<br> SUR ▶️ <a href="https://rismo.fr">rismo.fr</a>',
+        ],
+        typeSpeed: 50,
+        backSpeed: 10,
+
+        showCursor: false,
+      });
+    </script>
+     
+  </body>
+</html>
